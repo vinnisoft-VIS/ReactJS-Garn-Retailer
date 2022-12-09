@@ -1,0 +1,233 @@
+// Here you can add other styles
+
+.accordion .card {
+  border: none;
+  box-shadow: none;
+}
+.display_large {
+  font-family: 'poppins';
+  font-size: 40px;
+  line-height: 60px;
+}
+.display_small {
+  font-family: 'poppins';
+  font-size: 32px;
+  line-height: 48px;
+}
+.heading1 {
+  font-family: 'poppins';
+  font-size: 28px;
+  line-height: 40px;
+}
+.heading2 {
+  font-family: 'poppins';
+  font-size: 24px;
+  line-height: 36px;
+}
+.heading3 {
+  font-family: 'poppins';
+  font-size: 20px;
+  line-height: 28px;
+}
+.heading4 {
+  font-family: 'poppins';
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.paragraph1 {
+  font-family: 'poppins';
+  font-size: 16px;
+  line-height: 24px;
+}
+.paragraph2 {
+  font-family: 'poppins';
+  font-size: 14px;
+  line-height: 20px;
+}
+.paragraph3 {
+  font-family: 'poppins';
+  font-size: 12px;
+  line-height: 16px;
+}
+.button_text {
+  font-family: 'poppins';
+  font-size: 16px;
+  line-height: 24px;
+}
+.overline {
+  font-family: 'poppins';
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text_bold {
+  font-weight: 700;
+}
+.text_semibold {
+  font-weight: 600;
+}
+.text_medium {
+  font-weight: 500;
+}
+.text_regular {
+  font-weight: 400;
+}
+.text-black {
+  color: black;
+}
+
+.top-btn {
+  height: 48px;
+  padding: 14px 32px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+.sidebar-toggler {
+  display: none;
+}
+
+.bg-main {
+  background-color: #ddc380;
+}
+.text-blue {
+  color: #151522;
+}
+.bg-green {
+  background-color: #79da9f;
+}
+.bg-red {
+  background-color: #ff878e;
+}
+.popoverDiv {
+  position: relative;
+  z-index: 111;
+  top: 10px;
+  display: none;
+}
+.badgeItem {
+  position: relative;
+}
+
+.imgBadge {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+}
+.check_ic {
+  flex-wrap: wrap;
+}
+.boxItem {
+  background-color: #f7f7f7;
+  position: relative;
+  min-height: 114px;
+  padding: 20px 8px;
+  border-radius: 10px;
+}
+.boxItem.active {
+  background: #ddc380;
+}
+.boxItem.active .iconbadge {
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -6px;
+  width: 35px;
+}
+h2.accordion-header button {
+  background: #fff !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+.accordion-item {
+  margin-bottom: 20px !important;
+}
+.nuber_list {
+  width: 54%;
+  height: 33px;
+  border-radius: 22px;
+  background-color: #ddc380;
+  border: 1px solid #f3db9d;
+  text-align: center;
+  color: #151522;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: -16px;
+  right: 25px;
+  position: absolute;
+}
+.boxItem img {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+.heading4 {
+  font-family: 'poppins';
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.sel_card img {
+  width: 100%;
+}
+.pro_img {
+  background-color: #f7f7f7;
+  padding: 9% 23%;
+  border-radius: 10px;
+  min-height: 100px;
+}
+.heading5 {
+  font-family: 'poppins';
+  font-size: 16px;
+  line-height: 28px;
+}
+.main {
+  background-color: #f7f7f7;
+  padding: 6px 20px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+.sel_card.active .pro_img {
+  position: relative;
+  border: 1px solid #ddc380;
+}
+img.iconbadge {
+  display: none;
+}
+.sel_card.active .iconbadge {
+  display: block;
+  width: 32px;
+  position: absolute;
+  top: -10px;
+  right: -9px;
+}
+.box_items {
+  box-shadow: 2px 5px 8px #d7dbe3;
+}
+.boxItem1 .pro_img {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 29% 23%;
+}
+.boxItem1 .nuber_list {
+  position: absolute;
+  width: 46%;
+  height: 27px;
+  font-size: 15px;
+  bottom: -14px;
+  right: 35px;
+}
+
+a.page-link.border-0 {
+  font-size: 17px;
+  padding: 8px 16px;
+  border-radius: 50%;
+}
+.pro_des .heading5 {
+  font-size: 14px;
+  padding: 5px;
+  height: 40px;
+}

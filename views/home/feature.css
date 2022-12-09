@@ -1,0 +1,32 @@
+.feature{
+    width:36px;
+    height:36px;
+    border-radius: 50%;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;    
+    color:#737A83;
+    box-sizing: border-box;
+    cursor: pointer;
+    border:0.25px solid #eef1f5
+}
+.feature-active{
+    background-color: #DDC380;
+    color:#151522
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

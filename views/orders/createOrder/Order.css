@@ -1,0 +1,53 @@
+.light_gray{
+    background:#F6F6F6;
+}
+.top_subheading{
+    font-size: 15px;
+}
+.padding-none button{
+    padding: 0;
+}
+.confrm{
+    background: #5ac36a99;
+}
+.cancel{
+    background: #d1605f94;
+}
+.qr_button{
+    border-radius: 12px;
+}
+.select-status{
+    padding: 1rem !important;
+}
+.stock_bg {
+    background: #FFEFBA;
+}
+.note_reatiler {
+    border-radius: 12px !important;
+}
+.note_reatailer::-webkit-input-placeholder {
+    vertical-align: baseline;
+}
+.note_reatailer:focus{
+    box-shadow:none !important;
+    outline: none !important;
+}
+.large-btn1 {
+    height: 56px;
+    width: 30%;
+    border: 1px solid #151522;
+    border-radius: 8px;
+    text-align: center;
+    color: #151522;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.edit_product {
+    width: 50px;
+    padding: 17px !important;
+    border-radius: 14px;
+    height: 50px;
+}

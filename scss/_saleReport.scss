@@ -1,0 +1,33 @@
+.large-sale-btn {
+  height: 40px;
+  width: 30%;
+  background: #151522;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  // font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sale-large-btn {
+  height: 40px;
+  width: 30%;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  color: #151522;
+  // font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.large-btn:hover {
+  cursor: pointer;
+}
+
+.last-row {
+  border-bottom: none !important;
+}

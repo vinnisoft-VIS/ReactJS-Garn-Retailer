@@ -1,0 +1,104 @@
+.completed-circle {
+    background-color: #DDC380;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.semi-completed-circle{
+    border:1px solid #DDC380;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.incompleted-circle{
+    background-color: #F4F4F4;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.completed-line {
+    width: 35px;
+    height:1px;
+    border:1px solid #DDC380;
+    background-color:#DDC380 ;
+}
+.dotted-line{
+    width: 35px;
+    height:1px;
+    border:1px dashed #000000  
+}
+.next-line{
+    width: 35px;
+    height:1px;
+    border:1px solid #F4F4F4  
+}
+
+.vcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.img-card{  
+    width: 137.14px;
+    height: 137.14px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.img-card-active{
+border:2px solid #DDC380
+}
+.img-box{
+    background-color: #FFEFBA;
+    width: 100%;
+    border-radius: 12px;
+    padding:20% 25%;    
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 0.75446px solid #5B5B64;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-box{
+    background: #F7FAFA;
+    border-radius: 12px;
+    padding: 30px 25px;
+}
+
+.img-drop-box{
+    width: 100%;
+    padding: 25%;
+    border: 1.5px dashed #C4C4C4;
+    border-radius: 9.05352px;
+
+}
+.small-img-drop-box{
+    width: 18%;
+    padding: 5%;
+    border: 1.5px dashed #C4C4C4;
+    border-radius: 9.05352px;
+
+}

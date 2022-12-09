@@ -1,0 +1,21 @@
+.request_card{
+    box-shadow: none;
+    border-radius: 8px;
+}
+.product_bg{
+    background: #fdf0d091;
+    border-radius: 10px;
+}
+.large-btn1{
+height: 56px;
+    width: 30%;
+    border:1px solid #151522;
+    border-radius: 8px;
+    text-align: center;
+    color: #151522;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
